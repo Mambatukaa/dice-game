@@ -93,7 +93,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
     // Ээлжийн оноог нь 0 болгоно
 
     // Уг тоглогч хожсон эсэхийг шалгах
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       // Тоглоомыг дууссан төлөвт оруулна
       isNewGame = false;
       // Ялагч гэсэн текстийг нэрний оронд ойлгоно
